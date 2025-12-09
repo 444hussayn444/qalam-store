@@ -1,0 +1,31 @@
+.description-page {
+    height: 100%;
+    background-color: rgb(18, 18, 18);
+    position: absolute;
+    right: 0;
+    top:0;
+    padding: 40px;
+}
+.title{
+    padding:20px;
+}
+.title-p {
+    color: white;
+}
+
+
+.des{
+    padding:20px;
+    display:flex;
+    gap:10px;
+    list-style: none;
+    flex-direction: column;
+    li{
+        font-size:15px;
+        color:black;
+        background-color:rgb(233, 233, 18);
+        padding:25px;
+        border-radius:100px 20px;
+        box-shadow:0px 10px 5px 0px rgb(24, 24, 24);
+    }
+}

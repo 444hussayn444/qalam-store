@@ -1,0 +1,89 @@
+.Navbar {
+    box-shadow: 0px 0px 5px 0px black;
+    background-color: #10101010;
+    backdrop-filter: blur(100px);
+}
+
+.btn {
+    background: rgb(80, 80, 21) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.link {
+
+    transition: all ease 0.2s;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    font-weight: bolder !important;
+    font-size: 13px;
+
+}
+
+.link:hover {
+    background: rgb(80, 80, 21) !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bolder !important;
+
+
+}
+
+.active {
+    background: rgb(80, 80, 21) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+@keyframes loop3 {
+    0% {
+        box-shadow: 0px 0px 10px 0px rgba(29, 36, 240, 0.788);
+    }
+
+    25% {
+        box-shadow: 0px 0px 10px 0px rgba(39, 43, 164, 0.486);
+    }
+
+    50% {
+        box-shadow: 0px 0px 10px 5px rgba(27, 33, 203, 0.543);
+    }
+
+    75% {
+        box-shadow: 0px 0px 10px 0px rgb(0, 8, 237);
+        ;
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px 0px rgb(29, 36, 240);
+
+    }
+}
+
+.btn-suc {
+
+    border: 3px solid gold;
+    font-weight: bolder !important;
+    background: gold !important;
+    color: black !important;
+    border-radius: 25px;
+    font-size: 13px;
+    animation: loop3 linear 2.2s infinite;
+
+    .fix-icon {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+
+.btn-suc:hover {
+    background: rgb(0, 141, 196) !important;
+    color: gold !important;
+}
+
+.fix-icon {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bloodline {
+    border: 1px solid rgb(77, 77, 77);
+    margin: 30px;
+}

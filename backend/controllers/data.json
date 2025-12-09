@@ -1,0 +1,30 @@
+[
+    {
+        "id": 465,
+        "title": "e39abc69-347b-441d-9ba3-3c2ae28dfbef",
+        "image": "e39abc69-347b-441d-9ba3-3c2ae28dfbef.jpg",
+        "category": "t-shirts-symbloic",
+        "price": 289
+    },
+    {
+        "id": 6094,
+        "title": "energy",
+        "image": "energy.jpg",
+        "category": "t-shirts-symbloic",
+        "price": 369
+    },
+    {
+        "id": 1852,
+        "title": "light",
+        "image": "light.jpg",
+        "category": "t-shirts-symbloic",
+        "price": 261
+    },
+    {
+        "id": 565,
+        "title": "tree",
+        "image": "tree.png",
+        "category": "t-shirts-symbloic",
+        "price": 390
+    }
+]
